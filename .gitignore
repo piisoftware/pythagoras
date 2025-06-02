@@ -1,0 +1,7 @@
+//emacs cruft
+*~
+\#*
+.\#*
+//don't check in the freaking binary
+.DS_Store
+

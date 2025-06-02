@@ -1,0 +1,102 @@
+body {
+  background-color: #e5e5e3;
+  background-image: url('https://www.transparenttextures.com/patterns/concrete-wall.png');
+  background-repeat: repeat;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.headshot {
+  max-width: 300px;
+  border-radius: 8px;
+  margin: 1.0 rem 0 0 0;
+}
+
+h1, h2, h3 {
+  color: #2c2c2c;
+  margin: 0.5rem 0;
+}
+
+.bio, .media, .music, .press, .shows {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img,
+.gallery video {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #dcdcdc;
+  font-size: 0.9rem;
+}
+
+.media-caption {
+  background-color: #d48b91;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  background-color: #d48b91;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.gallery img,
+.gallery video,
+.gallery audio {
+  width: 100%;
+  max-width: 256px;
+  border-radius: 8px;
+  background-color: #ccc;
+}
