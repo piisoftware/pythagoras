@@ -40,6 +40,10 @@ h1, h2, h3 {
   gap: 1rem;
 }
 
+.gallery video {
+    aspect-ratio : 9/16
+}
+
 .gallery img,
 .gallery video {
   width: 100%;
@@ -90,6 +94,14 @@ footer {
   text-align: center;
   margin-bottom: 0.5rem;
   margin-top: 0;
+}
+
+.utvid {
+  width: 100%;
+  max-width: 256px;
+  border-radius: 8px;
+  background-color: #ccc;
+  aspect-ratio: 9/16
 }
 
 .gallery img,
